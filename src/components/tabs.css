@@ -1,0 +1,111 @@
+.scrollmenu {
+    background-color:#ebf4f6;
+    overflow-x:auto;
+   
+    white-space: nowrap;
+    box-shadow:1px 1px 5px;
+    padding-top:8px;
+    padding-bottom:10px;
+    padding-left:5px;
+    padding-right:5px;
+    z-index:0;
+}
+
+.stanza{
+    display: inline-block;
+    color: white;
+    background-color:#5e5656;
+    border-color: #5e5656;
+    text-align: center;
+    padding: 8px 10px;
+    margin: 0px 5px ;
+    border-style:solid;
+    border-width:1px;
+    box-shadow:0px 3px 5px black;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    border-radius:50px;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;   
+   
+         /* Likely future */      
+}
+
+.stanza:hover {
+    
+    background-color: #58668b;
+    border-color: #58668b;
+    color:white;
+    box-shadow:0px 0px 0px black;
+    
+}
+
+.agg{
+    display: inline-block;
+    color: black;
+    background-color:#7bc043;
+    border-color: #7bc043;
+    text-align: center;
+    padding: 0px 10px;
+    margin: 0px 5px ;
+    border-style:solid;
+    border-width:1px;
+    box-shadow:0px 3px 5px black;
+    font-family: 'Roboto', sans-serif;
+    font-size:1em;
+    text-decoration: none;
+    border-radius:50px;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;   
+   
+         /* Likely future */      
+}
+
+.agg:hover {
+    
+    background-color: #58668b;
+    border-color: #58668b;
+    color:white;
+    box-shadow:0px 0px 0px black;
+    
+}
+
+.cards {
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    padding:10px;
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */      
+  }
+
+  
+
+  .move-enter {
+    opacity: 0.01;
+    transform: translate(-40px, 0);
+}
+
+.move-enter-active {
+    opacity: 1;
+    transform: translate(0, 0);
+    transition: all 500ms ease-in;
+}
+
+.move-exit {
+    opacity: 1;
+    transform: translate(0, 0)
+}
+
+.move-exit-active {
+    opacity: 0.01;
+    transform: translate(40px, 0);
+    transition: all 500ms ease-in;
+}

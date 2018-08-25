@@ -1,0 +1,29 @@
+.App-title {
+  font-size: 2em;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  margin: 0px;
+  padding:5px;
+
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */      
+}
+
+
+.but {
+  padding:10px 30px;
+  background-color: #e85a4f;
+  border-radius:20px;
+}
+
+
+.hd{
+  background-color:#ebf4f6 ;
+  padding:15px 5px;
+
+  text-align:left;
+  position:relative;
+  z-index:2;
+}

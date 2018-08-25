@@ -1,0 +1,46 @@
+.icon {
+   width:100px;
+   height:100px;
+   background-size:cover;
+   border-radius:5px 5px 0px 0px;
+}
+
+.cont{
+    width:100px;
+    height:150px;
+    box-shadow:1px 1px 5px;
+    transition: box-shadow 0.5s;
+    margin: 5px;
+    background-color: #ebf4f6;
+    border-radius:5px;   
+    
+}
+
+.ogg{
+    padding:5px;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+.cont:hover{
+    box-shadow:5px 5px 10px;
+}
+
+.fade-enter {
+    opacity: 0.01;
+  }
+  
+  .fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .fade-leave {
+    opacity: 1;
+  }
+  
+  .fade-leave.fade-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
