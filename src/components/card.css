@@ -9,22 +9,37 @@
     width:100px;
     height:150px;
     box-shadow:1px 1px 5px;
-    transition: box-shadow 0.5s;
     margin: 5px;
+    color:black;
     background-color: #ebf4f6;
     border-radius:5px;   
-    
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
 }
+
+.working{
+  width:100px;
+  height:150px;
+  box-shadow:5px 5px 10px;
+  margin: 5px;
+    background-color: #ebf4f6;
+
+  border-radius:5px;   
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  
+}
+
 
 .ogg{
     padding:5px;
     text-align:center;
     font-family: 'Roboto', sans-serif;
     color:black;
-}
-
-.cont:hover{
-    box-shadow:5px 5px 10px;
 }
 
 .fade-enter {
