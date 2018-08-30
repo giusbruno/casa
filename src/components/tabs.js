@@ -15,11 +15,6 @@ class Tabs extends React.Component{
 		this.state = { stanze: [] , attstanza:[], ogg:[], aggIsOpen: false}; // <- set up react state
 		this.cambioStanza = this.cambioStanza.bind(this);
 	}
-	toggleModal = () => {
-		this.setState({
-		  aggIsOpen: !this.state.aggIsOpen
-		});
-	  }
 	componentWillMount(){
 		var listaStanze=["Nessuna stanza"];
 		
@@ -54,10 +49,7 @@ class Tabs extends React.Component{
 		 <div>
      <div className="scrollmenu"> 
 		 {listaStanze}
-		 <a id="Agg" className='agg' onClick={this.toggleModal}> ...</a>
 	</div>
-	<Modal show={this.state.aggIsOpen}
-          onClose={this.toggleModal}/>
         
 	<CSSTransition
 	  key="ci"
